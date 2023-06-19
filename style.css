@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    font-family: monospace;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+}
+
+.header{
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: white;
+    padding: 20px;
+}
+
+.header-logo {
+    max-width: 50px;
+    max-height: 50px;
+    padding: 12px;
+    padding-left: 220px;
+}
+
+.links {
+    display: flex;
+    gap: 15px;
+    padding: 12px;
+    width: 100%;
+    justify-content: flex-end;
+    padding-right: 220px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    background-color: #1F2937;
+    color: white;
+    padding-bottom: 60px;
+}
+
+
+.description {
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+.company {
+    max-width: 400px;
+    max-height: 200px;
+    border-radius: 10px;
+}
+
+.signup {
+    outline: #3882F6;
+    background-color: #3882F6;
+    color: white;
+    width: 80px;
+    height: 30px;
+    border: #1F2937;
+    border-radius: 10%;
+
+}
